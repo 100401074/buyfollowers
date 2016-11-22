@@ -40,6 +40,7 @@ class OrderConfirmed: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    //func email
     func sendEmail()
     {
         var request = URLRequest(url: URL(string: "http://mmadandroid.com/AppStore/buyinstafollowersSwift/send.php")!)
