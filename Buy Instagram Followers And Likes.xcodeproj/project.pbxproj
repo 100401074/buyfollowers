@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		734DFF050B35342D4A6AD40F /* Pods_Buy_Instagram_Followers_And_LikesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69FAB1CFFDDA47AFF608080C /* Pods_Buy_Instagram_Followers_And_LikesUITests.framework */; };
+		950806F51DDC6AF800E44853 /* buttonback.png in Resources */ = {isa = PBXBuildFile; fileRef = 950806F41DDC6AF800E44853 /* buttonback.png */; };
+		950806F71DDC6CE800E44853 /* back1.png in Resources */ = {isa = PBXBuildFile; fileRef = 950806F61DDC6CE800E44853 /* back1.png */; };
+		95247B3B1DC06FCB00C2CE9C /* Contact Us.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95247B3A1DC06FCB00C2CE9C /* Contact Us.swift */; };
+		95247B3D1DC078C200C2CE9C /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95247B3C1DC078C200C2CE9C /* Orders.swift */; };
+		95247B3F1DC0A68400C2CE9C /* OrderStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95247B3E1DC0A68400C2CE9C /* OrderStatus.swift */; };
+		9535DB8E1DB28E6B002032DE /* collectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9535DB8D1DB28E6B002032DE /* collectionCell.swift */; };
+		9535DB941DB2932F002032DE /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9535DB911DB2932F002032DE /* 1.png */; };
+		9535DB951DB2932F002032DE /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9535DB921DB2932F002032DE /* 2.png */; };
+		9535DB961DB2932F002032DE /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9535DB931DB2932F002032DE /* 3.png */; };
+		9535DB9A1DB2CEA3002032DE /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9535DB971DB2CEA3002032DE /* 4.png */; };
+		9535DB9B1DB2CEA3002032DE /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 9535DB981DB2CEA3002032DE /* 5.png */; };
+		9535DB9C1DB2CEA3002032DE /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 9535DB991DB2CEA3002032DE /* 6.png */; };
+		9535DB9E1DB2D15B002032DE /* productPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9535DB9D1DB2D15B002032DE /* productPage.swift */; };
+		9538F0891DE4791700A74903 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9538F0881DE4791700A74903 /* GoogleService-Info.plist */; };
+		953B969C1DAF4CAC0019F651 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B969B1DAF4CAC0019F651 /* AppDelegate.swift */; };
+		953B969E1DAF4CAC0019F651 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B969D1DAF4CAC0019F651 /* FirstViewController.swift */; };
+		953B96A01DAF4CAC0019F651 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B969F1DAF4CAC0019F651 /* SecondViewController.swift */; };
+		953B96A31DAF4CAC0019F651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953B96A11DAF4CAC0019F651 /* Main.storyboard */; };
+		953B96A51DAF4CAC0019F651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 953B96A41DAF4CAC0019F651 /* Assets.xcassets */; };
+		953B96A81DAF4CAC0019F651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953B96A61DAF4CAC0019F651 /* LaunchScreen.storyboard */; };
+		953B96B31DAF4CAD0019F651 /* Buy_Instagram_Followers_And_LikesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B96B21DAF4CAD0019F651 /* Buy_Instagram_Followers_And_LikesTests.swift */; };
+		953B96BE1DAF4CAD0019F651 /* Buy_Instagram_Followers_And_LikesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B96BD1DAF4CAD0019F651 /* Buy_Instagram_Followers_And_LikesUITests.swift */; };
+		956B639F1DE39B9800ABA3F7 /* instantfans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956B639E1DE39B9700ABA3F7 /* instantfans.swift */; };
+		957A766B1DC5F75A008A3D3C /* BuyNow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957A766A1DC5F75A008A3D3C /* BuyNow.swift */; };
+		95A4FC8E1DDC593300694BB6 /* my_orders.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95A4FC8C1DDC593300694BB6 /* my_orders.xcdatamodeld */; };
+		95DD63EE1DD0682C00288549 /* OrderConfirmed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DD63ED1DD0682C00288549 /* OrderConfirmed.swift */; };
+		95FCC9081DBF3D2700BFD2D4 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FCC9071DBF3D2700BFD2D4 /* Settings.swift */; };
+		DEFC19B74D58DFD123A8EB3D /* Pods_Buy_Instagram_Followers_And_Likes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E690A9E028E5B477911DFDC /* Pods_Buy_Instagram_Followers_And_Likes.framework */; };
+		F187E105D383DA80D3A281E5 /* Pods_Buy_Instagram_Followers_And_LikesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2D1BD39F5AB64CC9F0ED5C /* Pods_Buy_Instagram_Followers_And_LikesTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		953B96AF1DAF4CAD0019F651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 953B96901DAF4CAC0019F651 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 953B96971DAF4CAC0019F651;
+			remoteInfo = "Buy Instagram Followers And Likes";
+		};
+		953B96BA1DAF4CAD0019F651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 953B96901DAF4CAC0019F651 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 953B96971DAF4CAC0019F651;
+			remoteInfo = "Buy Instagram Followers And Likes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E690A9E028E5B477911DFDC /* Pods_Buy_Instagram_Followers_And_Likes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Buy_Instagram_Followers_And_Likes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5643DCDE966B3FCD0BC454 /* Pods-Buy Instagram Followers And LikesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buy Instagram Followers And LikesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Buy Instagram Followers And LikesTests/Pods-Buy Instagram Followers And LikesTests.release.xcconfig"; sourceTree = "<group>"; };
+		69FAB1CFFDDA47AFF608080C /* Pods_Buy_Instagram_Followers_And_LikesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Buy_Instagram_Followers_And_LikesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		752A4467E2D5CF3612CA38A1 /* Pods-Buy Instagram Followers And Likes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buy Instagram Followers And Likes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Buy Instagram Followers And Likes/Pods-Buy Instagram Followers And Likes.debug.xcconfig"; sourceTree = "<group>"; };
+		950806F41DDC6AF800E44853 /* buttonback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonback.png; sourceTree = "<group>"; };
+		950806F61DDC6CE800E44853 /* back1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back1.png; sourceTree = "<group>"; };
+		95247B3A1DC06FCB00C2CE9C /* Contact Us.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Contact Us.swift"; sourceTree = "<group>"; };
+		95247B3C1DC078C200C2CE9C /* Orders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
+		95247B3E1DC0A68400C2CE9C /* OrderStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderStatus.swift; sourceTree = "<group>"; };
+		9535DB8D1DB28E6B002032DE /* collectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = collectionCell.swift; sourceTree = "<group>"; };
+		9535DB911DB2932F002032DE /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = "Buy Instagram Followers And Likes/1.png"; sourceTree = "<group>"; };
+		9535DB921DB2932F002032DE /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = "Buy Instagram Followers And Likes/2.png"; sourceTree = "<group>"; };
+		9535DB931DB2932F002032DE /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = "Buy Instagram Followers And Likes/3.png"; sourceTree = "<group>"; };
+		9535DB971DB2CEA3002032DE /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		9535DB981DB2CEA3002032DE /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		9535DB991DB2CEA3002032DE /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		9535DB9D1DB2D15B002032DE /* productPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = productPage.swift; sourceTree = "<group>"; };
+		9538F0881DE4791700A74903 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		953B96981DAF4CAC0019F651 /* Buy Instagram Followers And Likes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Buy Instagram Followers And Likes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		953B969B1DAF4CAC0019F651 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		953B969D1DAF4CAC0019F651 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		953B969F1DAF4CAC0019F651 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		953B96A21DAF4CAC0019F651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		953B96A41DAF4CAC0019F651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		953B96A71DAF4CAC0019F651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		953B96A91DAF4CAC0019F651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		953B96AE1DAF4CAD0019F651 /* Buy Instagram Followers And LikesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Buy Instagram Followers And LikesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		953B96B21DAF4CAD0019F651 /* Buy_Instagram_Followers_And_LikesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buy_Instagram_Followers_And_LikesTests.swift; sourceTree = "<group>"; };
+		953B96B41DAF4CAD0019F651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		953B96B91DAF4CAD0019F651 /* Buy Instagram Followers And LikesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Buy Instagram Followers And LikesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		953B96BD1DAF4CAD0019F651 /* Buy_Instagram_Followers_And_LikesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buy_Instagram_Followers_And_LikesUITests.swift; sourceTree = "<group>"; };
+		953B96BF1DAF4CAD0019F651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		956B639E1DE39B9700ABA3F7 /* instantfans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = instantfans.swift; sourceTree = "<group>"; };
+		957A766A1DC5F75A008A3D3C /* BuyNow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyNow.swift; sourceTree = "<group>"; };
+		95A4FC8D1DDC593300694BB6 /* my_orders.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = my_orders.xcdatamodel; sourceTree = "<group>"; };
+		95DD63ED1DD0682C00288549 /* OrderConfirmed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderConfirmed.swift; sourceTree = "<group>"; };
+		95FCC9071DBF3D2700BFD2D4 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		B43A7B7BAB8D1CBFE19F7C80 /* Pods-Buy Instagram Followers And LikesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buy Instagram Followers And LikesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Buy Instagram Followers And LikesTests/Pods-Buy Instagram Followers And LikesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF0B69437851E4B4216399D9 /* Pods-Buy Instagram Followers And LikesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buy Instagram Followers And LikesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Buy Instagram Followers And LikesUITests/Pods-Buy Instagram Followers And LikesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D8975298E95C1F62D3338C9E /* Pods-Buy Instagram Followers And LikesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buy Instagram Followers And LikesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Buy Instagram Followers And LikesUITests/Pods-Buy Instagram Followers And LikesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA2D1BD39F5AB64CC9F0ED5C /* Pods_Buy_Instagram_Followers_And_LikesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Buy_Instagram_Followers_And_LikesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0998BA703D149F425CC6FC /* Pods-Buy Instagram Followers And Likes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buy Instagram Followers And Likes.release.xcconfig"; path = "Pods/Target Support Files/Pods-Buy Instagram Followers And Likes/Pods-Buy Instagram Followers And Likes.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		953B96951DAF4CAC0019F651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEFC19B74D58DFD123A8EB3D /* Pods_Buy_Instagram_Followers_And_Likes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953B96AB1DAF4CAD0019F651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F187E105D383DA80D3A281E5 /* Pods_Buy_Instagram_Followers_And_LikesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953B96B61DAF4CAD0019F651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734DFF050B35342D4A6AD40F /* Pods_Buy_Instagram_Followers_And_LikesUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0433D463FB65F879E6F9735E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				752A4467E2D5CF3612CA38A1 /* Pods-Buy Instagram Followers And Likes.debug.xcconfig */,
+				DD0998BA703D149F425CC6FC /* Pods-Buy Instagram Followers And Likes.release.xcconfig */,
+				B43A7B7BAB8D1CBFE19F7C80 /* Pods-Buy Instagram Followers And LikesTests.debug.xcconfig */,
+				4F5643DCDE966B3FCD0BC454 /* Pods-Buy Instagram Followers And LikesTests.release.xcconfig */,
+				D8975298E95C1F62D3338C9E /* Pods-Buy Instagram Followers And LikesUITests.debug.xcconfig */,
+				CF0B69437851E4B4216399D9 /* Pods-Buy Instagram Followers And LikesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9535DB901DB29266002032DE /* Product Images */ = {
+			isa = PBXGroup;
+			children = (
+				950806F61DDC6CE800E44853 /* back1.png */,
+				950806F41DDC6AF800E44853 /* buttonback.png */,
+				9535DB971DB2CEA3002032DE /* 4.png */,
+				9535DB981DB2CEA3002032DE /* 5.png */,
+				9535DB991DB2CEA3002032DE /* 6.png */,
+				9535DB921DB2932F002032DE /* 2.png */,
+				9535DB931DB2932F002032DE /* 3.png */,
+				9535DB911DB2932F002032DE /* 1.png */,
+			);
+			name = "Product Images";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		953B968F1DAF4CAC0019F651 = {
+			isa = PBXGroup;
+			children = (
+				953B969A1DAF4CAC0019F651 /* Buy Instagram Followers And Likes */,
+				953B96B11DAF4CAD0019F651 /* Buy Instagram Followers And LikesTests */,
+				953B96BC1DAF4CAD0019F651 /* Buy Instagram Followers And LikesUITests */,
+				953B96991DAF4CAC0019F651 /* Products */,
+				0433D463FB65F879E6F9735E /* Pods */,
+				C6BEF81F6182A30AC2E1168E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		953B96991DAF4CAC0019F651 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				953B96981DAF4CAC0019F651 /* Buy Instagram Followers And Likes.app */,
+				953B96AE1DAF4CAD0019F651 /* Buy Instagram Followers And LikesTests.xctest */,
+				953B96B91DAF4CAD0019F651 /* Buy Instagram Followers And LikesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		953B969A1DAF4CAC0019F651 /* Buy Instagram Followers And Likes */ = {
+			isa = PBXGroup;
+			children = (
+				9535DB901DB29266002032DE /* Product Images */,
+				953B969B1DAF4CAC0019F651 /* AppDelegate.swift */,
+				95A4FC8C1DDC593300694BB6 /* my_orders.xcdatamodeld */,
+				957A766A1DC5F75A008A3D3C /* BuyNow.swift */,
+				953B969D1DAF4CAC0019F651 /* FirstViewController.swift */,
+				953B969F1DAF4CAC0019F651 /* SecondViewController.swift */,
+				9535DB9D1DB2D15B002032DE /* productPage.swift */,
+				953B96A11DAF4CAC0019F651 /* Main.storyboard */,
+				95DD63ED1DD0682C00288549 /* OrderConfirmed.swift */,
+				956B639E1DE39B9700ABA3F7 /* instantfans.swift */,
+				95247B3E1DC0A68400C2CE9C /* OrderStatus.swift */,
+				95247B3C1DC078C200C2CE9C /* Orders.swift */,
+				95247B3A1DC06FCB00C2CE9C /* Contact Us.swift */,
+				95FCC9071DBF3D2700BFD2D4 /* Settings.swift */,
+				9535DB8D1DB28E6B002032DE /* collectionCell.swift */,
+				953B96A41DAF4CAC0019F651 /* Assets.xcassets */,
+				953B96A61DAF4CAC0019F651 /* LaunchScreen.storyboard */,
+				9538F0881DE4791700A74903 /* GoogleService-Info.plist */,
+				953B96A91DAF4CAC0019F651 /* Info.plist */,
+			);
+			path = "Buy Instagram Followers And Likes";
+			sourceTree = "<group>";
+		};
+		953B96B11DAF4CAD0019F651 /* Buy Instagram Followers And LikesTests */ = {
+			isa = PBXGroup;
+			children = (
+				953B96B21DAF4CAD0019F651 /* Buy_Instagram_Followers_And_LikesTests.swift */,
+				953B96B41DAF4CAD0019F651 /* Info.plist */,
+			);
+			path = "Buy Instagram Followers And LikesTests";
+			sourceTree = "<group>";
+		};
+		953B96BC1DAF4CAD0019F651 /* Buy Instagram Followers And LikesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				953B96BD1DAF4CAD0019F651 /* Buy_Instagram_Followers_And_LikesUITests.swift */,
+				953B96BF1DAF4CAD0019F651 /* Info.plist */,
+			);
+			path = "Buy Instagram Followers And LikesUITests";
+			sourceTree = "<group>";
+		};
+		C6BEF81F6182A30AC2E1168E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E690A9E028E5B477911DFDC /* Pods_Buy_Instagram_Followers_And_Likes.framework */,
+				DA2D1BD39F5AB64CC9F0ED5C /* Pods_Buy_Instagram_Followers_And_LikesTests.framework */,
+				69FAB1CFFDDA47AFF608080C /* Pods_Buy_Instagram_Followers_And_LikesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		953B96971DAF4CAC0019F651 /* Buy Instagram Followers And Likes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953B96C21DAF4CAD0019F651 /* Build configuration list for PBXNativeTarget "Buy Instagram Followers And Likes" */;
+			buildPhases = (
+				3E76643EDAA5B2C24D028DC3 /* [CP] Check Pods Manifest.lock */,
+				953B96941DAF4CAC0019F651 /* Sources */,
+				953B96951DAF4CAC0019F651 /* Frameworks */,
+				953B96961DAF4CAC0019F651 /* Resources */,
+				045D4D340FDDF031AB07CF1D /* [CP] Embed Pods Frameworks */,
+				F2CD171A4BA5DA507F44F507 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Buy Instagram Followers And Likes";
+			productName = "Buy Instagram Followers And Likes";
+			productReference = 953B96981DAF4CAC0019F651 /* Buy Instagram Followers And Likes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		953B96AD1DAF4CAD0019F651 /* Buy Instagram Followers And LikesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953B96C51DAF4CAD0019F651 /* Build configuration list for PBXNativeTarget "Buy Instagram Followers And LikesTests" */;
+			buildPhases = (
+				F287C60115F7B45EE845BEEF /* [CP] Check Pods Manifest.lock */,
+				953B96AA1DAF4CAD0019F651 /* Sources */,
+				953B96AB1DAF4CAD0019F651 /* Frameworks */,
+				953B96AC1DAF4CAD0019F651 /* Resources */,
+				44B8408F9049D4886B5894C8 /* [CP] Embed Pods Frameworks */,
+				05F5586C7194DE3CEA4110E5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				953B96B01DAF4CAD0019F651 /* PBXTargetDependency */,
+			);
+			name = "Buy Instagram Followers And LikesTests";
+			productName = "Buy Instagram Followers And LikesTests";
+			productReference = 953B96AE1DAF4CAD0019F651 /* Buy Instagram Followers And LikesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		953B96B81DAF4CAD0019F651 /* Buy Instagram Followers And LikesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953B96C81DAF4CAD0019F651 /* Build configuration list for PBXNativeTarget "Buy Instagram Followers And LikesUITests" */;
+			buildPhases = (
+				0DAFFFD88B64C5223B92AEE4 /* [CP] Check Pods Manifest.lock */,
+				953B96B51DAF4CAD0019F651 /* Sources */,
+				953B96B61DAF4CAD0019F651 /* Frameworks */,
+				953B96B71DAF4CAD0019F651 /* Resources */,
+				54F53CCAAE8F31412B0C9AB6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				953B96BB1DAF4CAD0019F651 /* PBXTargetDependency */,
+			);
+			name = "Buy Instagram Followers And LikesUITests";
+			productName = "Buy Instagram Followers And LikesUITests";
+			productReference = 953B96B91DAF4CAD0019F651 /* Buy Instagram Followers And LikesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		953B96901DAF4CAC0019F651 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Kallada;
+				TargetAttributes = {
+					953B96971DAF4CAC0019F651 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W3EVLRTS86;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					953B96AD1DAF4CAD0019F651 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W3EVLRTS86;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 953B96971DAF4CAC0019F651;
+					};
+					953B96B81DAF4CAD0019F651 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W3EVLRTS86;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 953B96971DAF4CAC0019F651;
+					};
+				};
+			};
+			buildConfigurationList = 953B96931DAF4CAC0019F651 /* Build configuration list for PBXProject "Buy Instagram Followers And Likes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 953B968F1DAF4CAC0019F651;
+			productRefGroup = 953B96991DAF4CAC0019F651 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				953B96971DAF4CAC0019F651 /* Buy Instagram Followers And Likes */,
+				953B96AD1DAF4CAD0019F651 /* Buy Instagram Followers And LikesTests */,
+				953B96B81DAF4CAD0019F651 /* Buy Instagram Followers And LikesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		953B96961DAF4CAC0019F651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953B96A81DAF4CAC0019F651 /* LaunchScreen.storyboard in Resources */,
+				9535DB9A1DB2CEA3002032DE /* 4.png in Resources */,
+				9535DB941DB2932F002032DE /* 1.png in Resources */,
+				9535DB9C1DB2CEA3002032DE /* 6.png in Resources */,
+				9535DB951DB2932F002032DE /* 2.png in Resources */,
+				9538F0891DE4791700A74903 /* GoogleService-Info.plist in Resources */,
+				9535DB961DB2932F002032DE /* 3.png in Resources */,
+				950806F51DDC6AF800E44853 /* buttonback.png in Resources */,
+				9535DB9B1DB2CEA3002032DE /* 5.png in Resources */,
+				950806F71DDC6CE800E44853 /* back1.png in Resources */,
+				953B96A51DAF4CAC0019F651 /* Assets.xcassets in Resources */,
+				953B96A31DAF4CAC0019F651 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953B96AC1DAF4CAD0019F651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953B96B71DAF4CAD0019F651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		045D4D340FDDF031AB07CF1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Buy Instagram Followers And Likes/Pods-Buy Instagram Followers And Likes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		05F5586C7194DE3CEA4110E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Buy Instagram Followers And LikesTests/Pods-Buy Instagram Followers And LikesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0DAFFFD88B64C5223B92AEE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3E76643EDAA5B2C24D028DC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		44B8408F9049D4886B5894C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Buy Instagram Followers And LikesTests/Pods-Buy Instagram Followers And LikesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54F53CCAAE8F31412B0C9AB6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Buy Instagram Followers And LikesUITests/Pods-Buy Instagram Followers And LikesUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F287C60115F7B45EE845BEEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2CD171A4BA5DA507F44F507 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Buy Instagram Followers And Likes/Pods-Buy Instagram Followers And Likes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		953B96941DAF4CAC0019F651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9535DB9E1DB2D15B002032DE /* productPage.swift in Sources */,
+				953B96A01DAF4CAC0019F651 /* SecondViewController.swift in Sources */,
+				953B969C1DAF4CAC0019F651 /* AppDelegate.swift in Sources */,
+				957A766B1DC5F75A008A3D3C /* BuyNow.swift in Sources */,
+				953B969E1DAF4CAC0019F651 /* FirstViewController.swift in Sources */,
+				95FCC9081DBF3D2700BFD2D4 /* Settings.swift in Sources */,
+				9535DB8E1DB28E6B002032DE /* collectionCell.swift in Sources */,
+				95247B3D1DC078C200C2CE9C /* Orders.swift in Sources */,
+				956B639F1DE39B9800ABA3F7 /* instantfans.swift in Sources */,
+				95DD63EE1DD0682C00288549 /* OrderConfirmed.swift in Sources */,
+				95247B3F1DC0A68400C2CE9C /* OrderStatus.swift in Sources */,
+				95A4FC8E1DDC593300694BB6 /* my_orders.xcdatamodeld in Sources */,
+				95247B3B1DC06FCB00C2CE9C /* Contact Us.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953B96AA1DAF4CAD0019F651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953B96B31DAF4CAD0019F651 /* Buy_Instagram_Followers_And_LikesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953B96B51DAF4CAD0019F651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953B96BE1DAF4CAD0019F651 /* Buy_Instagram_Followers_And_LikesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		953B96B01DAF4CAD0019F651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 953B96971DAF4CAC0019F651 /* Buy Instagram Followers And Likes */;
+			targetProxy = 953B96AF1DAF4CAD0019F651 /* PBXContainerItemProxy */;
+		};
+		953B96BB1DAF4CAD0019F651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 953B96971DAF4CAC0019F651 /* Buy Instagram Followers And Likes */;
+			targetProxy = 953B96BA1DAF4CAD0019F651 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		953B96A11DAF4CAC0019F651 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				953B96A21DAF4CAC0019F651 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		953B96A61DAF4CAC0019F651 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				953B96A71DAF4CAC0019F651 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		953B96C01DAF4CAD0019F651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		953B96C11DAF4CAD0019F651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		953B96C31DAF4CAD0019F651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 752A4467E2D5CF3612CA38A1 /* Pods-Buy Instagram Followers And Likes.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W3EVLRTS86;
+				INFOPLIST_FILE = "Buy Instagram Followers And Likes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kallada.buyinstagramfollowers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		953B96C41DAF4CAD0019F651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD0998BA703D149F425CC6FC /* Pods-Buy Instagram Followers And Likes.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W3EVLRTS86;
+				INFOPLIST_FILE = "Buy Instagram Followers And Likes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kallada.buyinstagramfollowers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		953B96C61DAF4CAD0019F651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B43A7B7BAB8D1CBFE19F7C80 /* Pods-Buy Instagram Followers And LikesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W3EVLRTS86;
+				INFOPLIST_FILE = "Buy Instagram Followers And LikesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kallada.Buy-Instagram-Followers-And-LikesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Buy Instagram Followers And Likes.app/Buy Instagram Followers And Likes";
+			};
+			name = Debug;
+		};
+		953B96C71DAF4CAD0019F651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F5643DCDE966B3FCD0BC454 /* Pods-Buy Instagram Followers And LikesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W3EVLRTS86;
+				INFOPLIST_FILE = "Buy Instagram Followers And LikesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kallada.Buy-Instagram-Followers-And-LikesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Buy Instagram Followers And Likes.app/Buy Instagram Followers And Likes";
+			};
+			name = Release;
+		};
+		953B96C91DAF4CAD0019F651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8975298E95C1F62D3338C9E /* Pods-Buy Instagram Followers And LikesUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W3EVLRTS86;
+				INFOPLIST_FILE = "Buy Instagram Followers And LikesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kallada.Buy-Instagram-Followers-And-LikesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Buy Instagram Followers And Likes";
+			};
+			name = Debug;
+		};
+		953B96CA1DAF4CAD0019F651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF0B69437851E4B4216399D9 /* Pods-Buy Instagram Followers And LikesUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W3EVLRTS86;
+				INFOPLIST_FILE = "Buy Instagram Followers And LikesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kallada.Buy-Instagram-Followers-And-LikesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Buy Instagram Followers And Likes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		953B96931DAF4CAC0019F651 /* Build configuration list for PBXProject "Buy Instagram Followers And Likes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953B96C01DAF4CAD0019F651 /* Debug */,
+				953B96C11DAF4CAD0019F651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953B96C21DAF4CAD0019F651 /* Build configuration list for PBXNativeTarget "Buy Instagram Followers And Likes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953B96C31DAF4CAD0019F651 /* Debug */,
+				953B96C41DAF4CAD0019F651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953B96C51DAF4CAD0019F651 /* Build configuration list for PBXNativeTarget "Buy Instagram Followers And LikesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953B96C61DAF4CAD0019F651 /* Debug */,
+				953B96C71DAF4CAD0019F651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953B96C81DAF4CAD0019F651 /* Build configuration list for PBXNativeTarget "Buy Instagram Followers And LikesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953B96C91DAF4CAD0019F651 /* Debug */,
+				953B96CA1DAF4CAD0019F651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		95A4FC8C1DDC593300694BB6 /* my_orders.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				95A4FC8D1DDC593300694BB6 /* my_orders.xcdatamodel */,
+			);
+			currentVersion = 95A4FC8D1DDC593300694BB6 /* my_orders.xcdatamodel */;
+			path = my_orders.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 953B96901DAF4CAC0019F651 /* Project object */;
+}
