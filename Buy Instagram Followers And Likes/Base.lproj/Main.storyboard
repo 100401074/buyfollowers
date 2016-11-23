@@ -422,7 +422,7 @@ Get local business, sponsorships and much more! Boost your exposure on Instagram
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Enter Your Issue Here" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iJ9-nI-ltx">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iJ9-nI-ltx">
                                 <frame key="frameInset" minX="16" minY="334" width="350" height="217"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -450,6 +450,9 @@ Get local business, sponsorships and much more! Boost your exposure on Instagram
                     <navigationItem key="navigationItem" title="Contact Us" id="Amg-Ne-UKz"/>
                     <connections>
                         <outlet property="emailContent" destination="iJ9-nI-ltx" id="wq4-BZ-IXv"/>
+                        <outlet property="emailfield" destination="Zf3-2o-odK" id="Ord-2y-9UN"/>
+                        <outlet property="namefield" destination="zMF-KZ-ALR" id="OgW-Wy-BvJ"/>
+                        <outlet property="subjectfield" destination="x0M-uG-Tbd" id="eIW-8I-hCu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qNE-8K-8dQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -477,7 +480,7 @@ Get local business, sponsorships and much more! Boost your exposure on Instagram
                                         <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4yq-1B-kDi" id="3pe-Vp-QB2">
-                                            <frame key="frameInset" width="375" height="44"/>
+                                            <frame key="frameInset" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>

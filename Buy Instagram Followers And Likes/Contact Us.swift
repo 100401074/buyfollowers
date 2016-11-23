@@ -11,13 +11,26 @@ import UIKit
 class Contact_Us: UIViewController {
     
     var tmp : String = ""
+    var content = ""
+    var email = ""
+    var subject = ""
+    var name = ""
 
     @IBOutlet var emailContent: UITextView!
+    @IBOutlet var namefield: UITextField!
+    @IBOutlet var emailfield: UITextField!
+    @IBOutlet var subjectfield: UITextField!
     
     @IBAction func sendMail_clicked(_ sender: AnyObject) {
         let alert = UIAlertController(title: "Message Sent", message: "Our Support Team Will Get Back To You In 24 Hours", preferredStyle: UIAlertControllerStyle.alert)
         alert.addAction(UIAlertAction(title: "Close", style: UIAlertActionStyle.default, handler: nil))
         self.present(alert, animated: true, completion: nil)
+        email = emailfield.text!
+        subject = subjectfield.text!
+        content = emailContent.text
+        name = namefield.text!
+        
+        sendEmail()
     }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,6 +51,29 @@ class Contact_Us: UIViewController {
     func dismissKeyboard() {
         //Causes the view (or one of its embedded text fields) to resign the first responder status.
         view.endEditing(true)
+    }
+    
+    func sendEmail()
+    {
+        var request = URLRequest(url: URL(string: "http://mmadandroid.com/AppStore/buyinstafollowersSwift/support.php")!)
+        request.httpMethod = "POST"
+        let postString = "name=\(name)&email=\(email)&subject=\(subject)&content=\(content)"
+        request.httpBody = postString.data(using: .utf8)
+        let task = URLSession.shared.dataTask(with: request) { data, response, error in
+            guard let data = data, error == nil else {                                                 // check for fundamental networking error
+                print("error=\(error)")
+                return
+            }
+            
+            if let httpStatus = response as? HTTPURLResponse, httpStatus.statusCode != 200 {           // check for http errors
+                print("statusCode should be 200, but is \(httpStatus.statusCode)")
+                print("response = \(response)")
+            }
+            
+            let responseString = String(data: data, encoding: .utf8)
+            print("responseString = \(responseString)")
+        }
+        task.resume()
     }
 
     override func didReceiveMemoryWarning() {
