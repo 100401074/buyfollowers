@@ -58,7 +58,7 @@ class FirstViewController: UIViewController,UICollectionViewDelegate,UICollectio
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "gotoproductPage" {
             if let destination = segue.destination as? productPage {
-                var index = sender as! Int
+                let index = sender as! Int
                 destination.quantity = product_quantity[index]
                 destination.imageName = images[index]
                 destination.index = index

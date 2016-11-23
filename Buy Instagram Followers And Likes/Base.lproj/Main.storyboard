@@ -362,11 +362,12 @@ Get local business, sponsorships and much more! Boost your exposure on Instagram
                     <connections>
                         <segue destination="iSe-ZG-YKh" kind="show" identifier="contact_page" id="YmI-dd-XLn"/>
                         <segue destination="fm0-yO-6mY" kind="show" identifier="orderPage" id="zUj-qV-pHj"/>
+                        <segue destination="9pv-A4-QxB" kind="show" identifier="swipeToMain" id="7co-K0-s29"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1688.8" y="359.37031484257875"/>
+            <point key="canvasLocation" x="1564" y="606"/>
         </scene>
         <!--Contact Us-->
         <scene sceneID="hC4-t3-cxi">
@@ -480,7 +481,7 @@ Get local business, sponsorships and much more! Boost your exposure on Instagram
                                         <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4yq-1B-kDi" id="3pe-Vp-QB2">
-                                            <frame key="frameInset" width="375" height="43.5"/>
+                                            <frame key="frameInset" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -620,7 +621,7 @@ Please Contact Us using the button below in case you have any queries about your
         <image name="second" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ouh-Bo-vcm"/>
+        <segue reference="7co-K0-s29"/>
         <segue reference="YmI-dd-XLn"/>
     </inferredMetricsTieBreakers>
 </document>

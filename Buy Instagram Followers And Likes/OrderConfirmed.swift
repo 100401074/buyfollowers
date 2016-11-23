@@ -27,7 +27,7 @@ class OrderConfirmed: UIViewController {
         super.viewDidLoad()
         print(productIdentifiers[index!])
         print("Order Made For \(username)")
-        var obj = instantfans()
+        let obj = instantfans()
         obj.add(username: username, quantity: "100",productName: productIdentifiers[index!])
         sendEmail()
         // Do any additional setup after loading the view.

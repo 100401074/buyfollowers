@@ -68,7 +68,7 @@ class BuyNow: UIViewController {
             
                 
                 switch purchaseResult {
-                case .purchased(let expiresDate):
+                case .purchased( _):
                     print("Product is purchased.")
                     self.performSegue(withIdentifier: "gotoOrderConfirmed", sender: self)
                 case .notPurchased:
@@ -127,7 +127,7 @@ class BuyNow: UIViewController {
         }
         if(username.text != "") && (email.text != "")
         {
-        let url=getInstaprofilepicURL()
+        _=getInstaprofilepicURL()
         }
       
         
@@ -155,15 +155,15 @@ class BuyNow: UIViewController {
     
     func getInstaprofilepicURL() -> String
     {
-        var tmpurl = "https://www.instagram.com/\(username.text!)"
+        let tmpurl = "https://www.instagram.com/\(username.text!)"
         let url1 = NSURL(string: tmpurl)
         var url=""
         var invalid_username = false
         let task = URLSession.shared.dataTask(with: url1! as URL) {(data, response, error) in
-            var html_code=NSString(data: data!, encoding: String.Encoding.utf8.rawValue)
-            var html_code1: String = html_code as! String
+            let html_code=NSString(data: data!, encoding: String.Encoding.utf8.rawValue)
+            let html_code1: String = html_code as! String
             invalid_username = html_code1.contains("The link you followed may be broken, or the page may have been removed.")
-            var profile_private = html_code1.contains("\"is_private\": true")
+            let profile_private = html_code1.contains("\"is_private\": true")
             
             print("Invalid Username: \(invalid_username) Profile Private: \(profile_private)")
             
@@ -205,7 +205,7 @@ class BuyNow: UIViewController {
                 {
                     print("BIF:URL is \(url)")
                     url=url.replacingOccurrences(of: " ", with: "")
-                    var tmp_url = NSURL(string: url)
+                    let tmp_url = NSURL(string: url)
                     print("Value of tmp_url:\(tmp_url)")
                     
                     

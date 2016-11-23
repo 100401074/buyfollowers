@@ -15,11 +15,23 @@ class Settings: UIViewController,UITableViewDataSource,UITableViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "back1.png")!)
+       
+        
+        let upSwipe = UISwipeGestureRecognizer(target: self, action: #selector(swipeRight(_:)))
+        upSwipe.direction = .right
+        view.addGestureRecognizer(upSwipe)
+
 
 
         // Do any additional setup after loading the view.
     }
     
+    func swipeRight(_ sender: UISwipeGestureRecognizer){
+        print("WORKS")
+        self.performSegue(withIdentifier: "swipeToMain", sender: self)
+    }
+    
+  
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
         return pageNames.count

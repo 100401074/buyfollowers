@@ -38,7 +38,7 @@ class Contact_Us: UIViewController {
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "back1.png")!)
         
         //Looks for single or multiple taps.
-        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(Contact_Us.dismissKeyboard))
         
         //Uncomment the line below if you want the tap not not interfere and cancel other interactions.
         //tap.cancelsTouchesInView = false
