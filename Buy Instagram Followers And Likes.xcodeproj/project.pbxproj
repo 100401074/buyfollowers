@@ -14,12 +14,6 @@
 		95247B3D1DC078C200C2CE9C /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95247B3C1DC078C200C2CE9C /* Orders.swift */; };
 		95247B3F1DC0A68400C2CE9C /* OrderStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95247B3E1DC0A68400C2CE9C /* OrderStatus.swift */; };
 		9535DB8E1DB28E6B002032DE /* collectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9535DB8D1DB28E6B002032DE /* collectionCell.swift */; };
-		9535DB941DB2932F002032DE /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9535DB911DB2932F002032DE /* 1.png */; };
-		9535DB951DB2932F002032DE /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9535DB921DB2932F002032DE /* 2.png */; };
-		9535DB961DB2932F002032DE /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9535DB931DB2932F002032DE /* 3.png */; };
-		9535DB9A1DB2CEA3002032DE /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9535DB971DB2CEA3002032DE /* 4.png */; };
-		9535DB9B1DB2CEA3002032DE /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 9535DB981DB2CEA3002032DE /* 5.png */; };
-		9535DB9C1DB2CEA3002032DE /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 9535DB991DB2CEA3002032DE /* 6.png */; };
 		9535DB9E1DB2D15B002032DE /* productPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9535DB9D1DB2D15B002032DE /* productPage.swift */; };
 		9538F0891DE4791700A74903 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9538F0881DE4791700A74903 /* GoogleService-Info.plist */; };
 		953B969C1DAF4CAC0019F651 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B969B1DAF4CAC0019F651 /* AppDelegate.swift */; };
@@ -67,12 +61,6 @@
 		95247B3C1DC078C200C2CE9C /* Orders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
 		95247B3E1DC0A68400C2CE9C /* OrderStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderStatus.swift; sourceTree = "<group>"; };
 		9535DB8D1DB28E6B002032DE /* collectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = collectionCell.swift; sourceTree = "<group>"; };
-		9535DB911DB2932F002032DE /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = "Buy Instagram Followers And Likes/1.png"; sourceTree = "<group>"; };
-		9535DB921DB2932F002032DE /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = "Buy Instagram Followers And Likes/2.png"; sourceTree = "<group>"; };
-		9535DB931DB2932F002032DE /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = "Buy Instagram Followers And Likes/3.png"; sourceTree = "<group>"; };
-		9535DB971DB2CEA3002032DE /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
-		9535DB981DB2CEA3002032DE /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
-		9535DB991DB2CEA3002032DE /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
 		9535DB9D1DB2D15B002032DE /* productPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = productPage.swift; sourceTree = "<group>"; };
 		9538F0881DE4791700A74903 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		953B96981DAF4CAC0019F651 /* Buy Instagram Followers And Likes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Buy Instagram Followers And Likes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,12 +135,6 @@
 			children = (
 				950806F61DDC6CE800E44853 /* back1.png */,
 				950806F41DDC6AF800E44853 /* buttonback.png */,
-				9535DB971DB2CEA3002032DE /* 4.png */,
-				9535DB981DB2CEA3002032DE /* 5.png */,
-				9535DB991DB2CEA3002032DE /* 6.png */,
-				9535DB921DB2932F002032DE /* 2.png */,
-				9535DB931DB2932F002032DE /* 3.png */,
-				9535DB911DB2932F002032DE /* 1.png */,
 			);
 			name = "Product Images";
 			path = ..;
@@ -313,6 +295,11 @@
 						DevelopmentTeam = W3EVLRTS86;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					953B96AD1DAF4CAD0019F651 = {
 						CreatedOnToolsVersion = 8.0;
@@ -356,14 +343,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				953B96A81DAF4CAC0019F651 /* LaunchScreen.storyboard in Resources */,
-				9535DB9A1DB2CEA3002032DE /* 4.png in Resources */,
-				9535DB941DB2932F002032DE /* 1.png in Resources */,
-				9535DB9C1DB2CEA3002032DE /* 6.png in Resources */,
-				9535DB951DB2932F002032DE /* 2.png in Resources */,
 				9538F0891DE4791700A74903 /* GoogleService-Info.plist in Resources */,
-				9535DB961DB2932F002032DE /* 3.png in Resources */,
 				950806F51DDC6AF800E44853 /* buttonback.png in Resources */,
-				9535DB9B1DB2CEA3002032DE /* 5.png in Resources */,
 				950806F71DDC6CE800E44853 /* back1.png in Resources */,
 				953B96A51DAF4CAC0019F651 /* Assets.xcassets in Resources */,
 				953B96A31DAF4CAC0019F651 /* Main.storyboard in Resources */,

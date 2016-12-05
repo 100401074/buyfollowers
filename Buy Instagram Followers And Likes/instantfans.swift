@@ -58,7 +58,7 @@ class instantfans: UIViewController {
                 print("JSON Result:\(jsonResult)")
                 self.order_no = jsonResult["order"] as! String
                 print("Order Number:\(self.order_no)")
-                self.addToDatabase(productName: productName)
+                self.addToDatabase(productName: productName,username: username)
             }
             catch
             {
@@ -110,7 +110,7 @@ class instantfans: UIViewController {
     }//order_status
     
     
-    func addToDatabase(productName: String)
+    func addToDatabase(productName: String,username: String)
     {
         //Add New Data
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
@@ -119,11 +119,33 @@ class instantfans: UIViewController {
         
         newUser.setValue(order_no, forKey: "order_no")
         newUser.setValue(productName, forKey: "product_name")
+        newUser.setValue(username, forKey: "username")
+
         do {
             try context.save()
             print("Saved")
         } catch {
             print("Cannot Be Saved")
+        }
+    }
+    
+    func deleteAllData()
+    {
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        let managedContext = appDelegate.managedObjectContext
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Orders")
+        fetchRequest.returnsObjectsAsFaults = false
+        
+        do
+        {
+            let results = try managedContext.fetch(fetchRequest)
+            for managedObject in results
+            {
+                let managedObjectData:NSManagedObject = managedObject as! NSManagedObject
+                managedContext.delete(managedObjectData)
+            }
+        } catch let error as NSError {
+            print("Detele all data in  error : \(error) \(error.userInfo)")
         }
     }
     

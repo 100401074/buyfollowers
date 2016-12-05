@@ -11,9 +11,9 @@ import UIKit
 
 class FirstViewController: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource {
     
-    var prices : [String] = ["14.99","34.99","64.99","99.99","149.99","174.99"]
+    var prices : [String] = ["14.99","24.99","34.99","64.99","74.99","99.99"]
     var images : [String] = ["1.png","2.png","3.png","4.png","5.png","6.png"]
-    var product_quantity : [String] = ["1000","3000","5000","10000","15000","20000"]
+    var product_quantity : [String] = ["1000","2000","3000","5000","7000","10000"]
     
     
     

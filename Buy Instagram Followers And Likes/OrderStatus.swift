@@ -15,6 +15,8 @@ class OrderStatus: UIViewController {
     var start_count = ""
     var status = ""
     var remains = ""
+    var ordername = ""
+    var username = ""
     var obj = instantfans()
 
     @IBOutlet var status_text: UITextView!
@@ -34,7 +36,8 @@ class OrderStatus: UIViewController {
         }
         
         status_text.text = "" +
-            "Order Name         : 1000 Followers \n" +
+            "Order Name: \(ordername) \n" +
+            "Username         : \(username) \n" +
             "Start Count          :\(obj.start_count) Followers \n" +
             "Status              \t  :\(obj.status) \n" +
             "Remaining           :\(obj.remains)\n" +

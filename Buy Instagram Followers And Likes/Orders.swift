@@ -13,12 +13,22 @@ class Orders: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     var tmp : String = ""
     var productNames: [String] = []
+    var usernames: [String] = []
     var order_nos: [String] = []
     var selected_orderno = ""
+    var selected_ordername = ""
+    var selected_username = ""
    
    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //tmp code
+        var obj = instantfans()
+       // obj.deleteAllData()
+        
+        
+        //end tmp code
         getDataFromDatabase()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "back1.png")!)
         
@@ -37,12 +47,14 @@ class Orders: UIViewController,UITableViewDelegate,UITableViewDataSource {
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         let cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "Cell")
-        cell.textLabel?.text = order_nos[indexPath.row]
+        cell.textLabel?.text = order_nos[indexPath.row] + "-"+productNames[indexPath.row]
         return cell
     }
     
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         selected_orderno = order_nos[indexPath.row]
+        selected_ordername = productNames[indexPath.row]
+        selected_username = usernames[indexPath.row]
         performSegue(withIdentifier: "orderstatus_page", sender: self)
     }
     
@@ -52,6 +64,8 @@ class Orders: UIViewController,UITableViewDelegate,UITableViewDataSource {
             if let destination = segue.destination as? OrderStatus {
                 destination.tmp = "Reached Order Status Page"
                 destination.order_no = selected_orderno
+                destination.ordername = selected_ordername
+                destination.username = selected_username
                 
             }
         }//if
@@ -78,6 +92,7 @@ class Orders: UIViewController,UITableViewDelegate,UITableViewDataSource {
         productNames.append((result.value(forKey: "product_name") as? String)!)
    // let password =  result.value(forKey: "product_name") as? String
         order_nos.append((result.value(forKey: "order_no") as? String)!)
+        usernames.append((result.value(forKey: "username") as? String)!)
     
     //print("Username:\(username) Password:\(password)")
     
