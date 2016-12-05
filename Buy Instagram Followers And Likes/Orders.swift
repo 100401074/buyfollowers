@@ -24,7 +24,7 @@ class Orders: UIViewController,UITableViewDelegate,UITableViewDataSource {
         super.viewDidLoad()
         
         //tmp code
-        var obj = instantfans()
+        _ = instantfans()
        // obj.deleteAllData()
         
         

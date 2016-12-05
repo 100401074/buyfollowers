@@ -9,6 +9,7 @@
 import UIKit
 import SwiftyStoreKit
 import CoreData
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,6 +19,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //AppBackground Run Code
+        UIApplication.shared.setMinimumBackgroundFetchInterval(UIApplicationBackgroundFetchIntervalMinimum)
+        
+        //Push Notification Code
+        let center = UNUserNotificationCenter.current()
+        let options: UNAuthorizationOptions = [.alert, .sound];
+        center.requestAuthorization(options: options) {
+            (granted, error) in
+            if !granted {
+                print("Something went wrong")
+            }
+        }
+        
+
+        //swiftystore kit code
+        
         SwiftyStoreKit.completeTransactions() { completedTransactions in
             
             for completedTransaction in completedTransactions {
@@ -28,6 +46,57 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 }
             }
         }
+        
+        
+        return true
+    }
+    
+    func application(_ application: UIApplication, performFetchWithCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+        print("Complete");
+        completionHandler(UIBackgroundFetchResult.newData)
+        
+        getData();
+        
+    }
+    
+    func getData() -> Void{
+        print("Running In Background")
+        let obj = instantfans()
+        obj.order_status(id: "384194")
+        
+        
+        while(obj.status == "")
+        {
+            //wait till we get the status
+            print("Inside Loop")
+        }
+        if(obj.status == "Completed")
+        {
+            print("Send Push Notification")
+            callPushNotification()
+        }
+        }
+    
+    func callPushNotification()
+    {
+        let trigger = UNTimeIntervalNotificationTrigger(
+            timeInterval: 2.0,
+            repeats: false)
+        let content = UNMutableNotificationContent()
+        content.title = "Order Complete"
+        content.body = "Your instagram followers order is delivered"
+        content.sound = UNNotificationSound.default()
+        let request = UNNotificationRequest(identifier: "textNotification", content: content, trigger: trigger)
+        UNUserNotificationCenter.current().removeAllPendingNotificationRequests()
+        UNUserNotificationCenter.current().add(request) {(error) in
+            if let error = error {
+                print("Uh oh! We had an error: \(error)")
+            }
+
+    }
+    }
+    
+    func checkOrderComplete(orderno: String) -> Bool{
         
         
         return true

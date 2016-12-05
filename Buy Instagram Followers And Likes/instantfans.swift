@@ -95,7 +95,7 @@ class instantfans: UIViewController {
                 
                 self.jsonResult1 = try JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.mutableContainers) as AnyObject // Added "as anyObject" to fix syntax error in Xcode 8 Beta 6
                 
-                print("Status:\(self.jsonResult1?["status"])")
+               // print("Status:\(self.jsonResult1?["status"]!)")
                 self.start_count = self.jsonResult1?["start_count"] as! String
                 self.status = self.jsonResult1?["status"] as! String
                 self.remains = self.jsonResult1?["remains"] as! String

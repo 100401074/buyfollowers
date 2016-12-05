@@ -78,6 +78,7 @@
 		953B96BD1DAF4CAD0019F651 /* Buy_Instagram_Followers_And_LikesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buy_Instagram_Followers_And_LikesUITests.swift; sourceTree = "<group>"; };
 		953B96BF1DAF4CAD0019F651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		956B639E1DE39B9700ABA3F7 /* instantfans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = instantfans.swift; sourceTree = "<group>"; };
+		957474DC1DF591F4003E15D2 /* Buy Instagram Followers And Likes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Buy Instagram Followers And Likes.entitlements"; sourceTree = "<group>"; };
 		957A766A1DC5F75A008A3D3C /* BuyNow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyNow.swift; sourceTree = "<group>"; };
 		95A4FC8D1DDC593300694BB6 /* my_orders.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = my_orders.xcdatamodel; sourceTree = "<group>"; };
 		95DD63ED1DD0682C00288549 /* OrderConfirmed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderConfirmed.swift; sourceTree = "<group>"; };
@@ -165,6 +166,7 @@
 		953B969A1DAF4CAC0019F651 /* Buy Instagram Followers And Likes */ = {
 			isa = PBXGroup;
 			children = (
+				957474DC1DF591F4003E15D2 /* Buy Instagram Followers And Likes.entitlements */,
 				9535DB901DB29266002032DE /* Product Images */,
 				953B969B1DAF4CAC0019F651 /* AppDelegate.swift */,
 				95A4FC8C1DDC593300694BB6 /* my_orders.xcdatamodeld */,
@@ -298,6 +300,9 @@
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
 							};
 						};
 					};
