@@ -27,6 +27,7 @@
 		956B639F1DE39B9800ABA3F7 /* instantfans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956B639E1DE39B9700ABA3F7 /* instantfans.swift */; };
 		957A766B1DC5F75A008A3D3C /* BuyNow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957A766A1DC5F75A008A3D3C /* BuyNow.swift */; };
 		95A4FC8E1DDC593300694BB6 /* my_orders.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95A4FC8C1DDC593300694BB6 /* my_orders.xcdatamodeld */; };
+		95A82D1B1E062DB600C0CC66 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 95A82D1A1E062DB600C0CC66 /* splash.png */; };
 		95DD63EE1DD0682C00288549 /* OrderConfirmed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DD63ED1DD0682C00288549 /* OrderConfirmed.swift */; };
 		95FCC9081DBF3D2700BFD2D4 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FCC9071DBF3D2700BFD2D4 /* Settings.swift */; };
 		DEFC19B74D58DFD123A8EB3D /* Pods_Buy_Instagram_Followers_And_Likes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E690A9E028E5B477911DFDC /* Pods_Buy_Instagram_Followers_And_Likes.framework */; };
@@ -81,6 +82,7 @@
 		957474DC1DF591F4003E15D2 /* Buy Instagram Followers And Likes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Buy Instagram Followers And Likes.entitlements"; sourceTree = "<group>"; };
 		957A766A1DC5F75A008A3D3C /* BuyNow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyNow.swift; sourceTree = "<group>"; };
 		95A4FC8D1DDC593300694BB6 /* my_orders.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = my_orders.xcdatamodel; sourceTree = "<group>"; };
+		95A82D1A1E062DB600C0CC66 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
 		95DD63ED1DD0682C00288549 /* OrderConfirmed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderConfirmed.swift; sourceTree = "<group>"; };
 		95FCC9071DBF3D2700BFD2D4 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		B43A7B7BAB8D1CBFE19F7C80 /* Pods-Buy Instagram Followers And LikesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buy Instagram Followers And LikesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Buy Instagram Followers And LikesTests/Pods-Buy Instagram Followers And LikesTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 			children = (
 				950806F61DDC6CE800E44853 /* back1.png */,
 				950806F41DDC6AF800E44853 /* buttonback.png */,
+				95A82D1A1E062DB600C0CC66 /* splash.png */,
 			);
 			name = "Product Images";
 			path = ..;
@@ -348,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				953B96A81DAF4CAC0019F651 /* LaunchScreen.storyboard in Resources */,
+				95A82D1B1E062DB600C0CC66 /* splash.png in Resources */,
 				9538F0891DE4791700A74903 /* GoogleService-Info.plist in Resources */,
 				950806F51DDC6AF800E44853 /* buttonback.png in Resources */,
 				950806F71DDC6CE800E44853 /* back1.png in Resources */,
